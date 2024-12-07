@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/revelada.jpg);
+    background-size: cover;
+}
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.card {
+   /* background-color: #00FF0000;  Fondo transparente */
+   background-color: white;
+    padding: 20px 25px 30px;
+    margin: 0 auto 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    border-radius: 80%;
+}
+
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em; 
+}
+
+.form-signin input[type=text]::placeholder,
+.form-signin input[type=password]::placeholder,
+.form-signin input[type=email]::placeholder,
+.form-signin select::placeholder {
+    color: white;
+}
+
+.form-signin input[type=text],
+.form-signin input[type=password],
+.form-signin input[type=email],
+.form-signin select {
+    background-color: #1B396A;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    height: 44px;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: white; 
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    background-color: rgb(104, 145, 162);
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 3px;
+    border: none;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: rgb(27, 57, 106);
+}
